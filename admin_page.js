@@ -1,0 +1,1 @@
+window.localStorage.setItem('sroubek', '10');
