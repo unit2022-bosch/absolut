@@ -9,13 +9,18 @@
 </head>
 
 <body>
+  <script src="order_page.js"></script>
   <h1>Order page</h1>
   <form>
-    <input type="number">
-    <input type="number">
-    <input type="number">
-    <input type="button">
+    <div>Převodovky</div>
+    <input id="prevodovky" type="number">
+    <div>Pneumatiky</div>
+    <input id="pneu" type="number">
+    <div>Volanty</div>
+    <input id="volanty" type="number">
+    <input type="button" value="Order" onclick="order()">
   </form>
+  <h1 id="order_state"></h1>
 
   <a href="index.html">Logout</a>
 </body>
